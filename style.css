@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #c4c4c4;
+}
+
+
+footer {
+    padding: 51.5px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #c4c4c4;
+}
+
+
+main {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#container {
+    display: grid;
+    grid-gap: 1px;
+    width: 500px;
+    height: 500px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: auto;
+    text-align: center;
+}
+
+#controls {
+    background-color: grey;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100px;
+    height: 80px;
+}
